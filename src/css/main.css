@@ -1,0 +1,160 @@
+.headin-site {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline 4px #00CBA9;
+}
+
+.headin-site2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.notification {
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.notification i {
+    font-size: 3em;
+    color: #485FC7
+}
+
+.notification i:hover {
+    color: #00CBA9;
+}
+
+.header img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer
+}
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-logo {
+    color: #485FC7;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+}
+
+.header .header-menu {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 20px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #485FC7;
+}
+
+.header .header-menu a:hover {
+    text-decoration: underline 2px #00CBA9;
+}
+
+.banner {
+    margin-top: -100px;
+}
+
+.banner .banner-image {
+    position: relative;
+    height: 600px;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 22%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+    color: #485FC7;
+}
+
+.about .about-single-element i {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about .about-single-element {
+    text-align: center;
+}
+
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.footer .footer-informations {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer .footer-informations i:hover {
+    color: #00CBA9;
+}
+
+.footer .footer-informations ul {
+    padding: 0;
+}
+
+.footer .footer-informations ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+#message {
+    resize: none;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+
+/*modal*/
+
+.own-modal {
+    padding-top: 120px;
+}
+
+/* responsive exp */
+
+@media screen and (max-width: 600px) {
+    .header .header-menu {
+        display: none;
+    }
+}
